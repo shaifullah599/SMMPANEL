@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API PAGE</title>
+
+<!-- css -->
+
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    
+<!-- sec-1 start -->
+
+
+
+<div class="sec-1 ">
+
+<div class="row">
+
+<div class="col-lg-12">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo/BEST-BOOST-BD.COM.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Sign in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="api.html">api</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sign-up.html">Sign-Up</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="terms.html">terms</a>
+              </li><li class="nav-item">
+                <a class="nav-link" href="faq.html">faq</a>
+              </li><li class="nav-item">
+                <a class="nav-link" href="about.html">about us</a>
+              </li><li class="nav-item">
+                <a class="nav-link" href="smm-panel.html">smm panel bangladesh</a>
+              </li><li class="nav-item">
+                <a class="nav-link" href="payment.html">bkash/nagad/rocket</a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+</div>
+</div>
+
+</div>
+
+
+
+<!-- sec-1 end -->
+
+<!-- api sec-1 start -->
+
+<div class="api-sec-1">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-12 apisec-1design">
+
+<div class="api-sec-1-design-1">
+
+<h1>API</h1>
+
+<table>
+
+<tr>
+
+<th>HTTP Method</th>
+
+<th>POST</th>
+
+</tr>
+
+<tr>
+
+    <td>API URL</td>
+    <td>https://nsboostbd.com/api/v2</td>
+
+</tr>
+
+
+<tr>
+
+<td>Response format</td>
+
+<td>JSON</td>
+
+<hr>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+
+<div class="api-sec-1-design-2">
+
+    <h1>Service list</h1>
+    
+    <table>
+    
+    <tr>
+    
+    <th>Parameters</th>
+    
+    <th>Description</th>
+    
+    </tr>
+    
+    <tr>
+    
+        <td>key</td>
+        <td>Your API key</td>
+    
+    </tr>
+    
+    
+    <tr>
+    
+    <td>action</td>
+    
+    <td>services</td>
+    
+    <hr>
+    
+    </tr>
+    
+    </table>
+    
+    </div>
+    
+
+
+
+
+    <div class="api-sec-1-design-3">
+
+        <h1>Example response</h1>
+        
+        <p>
+
+            [ <br>
+            { <br>
+                "service": 1, <br>
+                "name": "Followers", <br>
+                "type": "Default", <br>
+                "category": "First Category", <br>
+                "rate": "0.90", <br>
+                "min": "50", <br>
+                "max": "10000", <br>
+                "refill": true <br>
+            }, <br>
+            {
+                "service": 2, <br>
+                "name": "Comments", <br>
+                "type": "Custom Comments", <br>
+                "category": "Second Category", <br>
+                "rate": "8", <br>
+                "min": "10", <br>
+                "max": "1500", <br>
+                "refill": false <br>
+            } <br>
+        ] <br>
+
+
+        </p>
+     
+        
+        
+        </div>
+
+
+
+        <div class="api-sec-1-design-4">
+
+            <h1>Add order</h1>
+            
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Package
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Package</a></li>
+                  <li><a class="dropdown-item" href="#">Custom comments</a></li>
+                  <li><a class="dropdown-item" href="#">Mention Hastag</a></li>
+                </ul>
+              </div>
+            
+
+              <table>
+    
+                <tr>
+                
+                <th>Parameters</th>
+                
+                <th>Description</th>
+                
+                </tr>
+                
+                <tr>
+                
+                    <td>key</td>
+                    <td>Your API key</td>
+                
+                </tr>
+                
+                
+                <tr>
+                
+                <td>action</td>
+                
+                <td>add</td>
+                
+                
+                
+                </tr>
+
+
+                <tr>
+                
+                    <td>service</td>
+                    
+                    <td>Service ID</td>
+                    
+                    
+                    
+                    </tr>
+
+                    <tr>
+                
+                        <td>link</td>
+                        
+                        <td>Link to page</td>
+                        
+                        
+                        
+                        </tr>
+    
+                </table>
+
+                <div class="api-sec-1-design-3">
+
+                    <h1>Example response</h1>
+                    
+                    <p>
+                        { <br>
+                            "order": 23501 <br>
+                        }
+            
+            
+                    </p>
+                 
+                    
+                    
+                    </div>
+
+
+
+                    <table>
+    
+                        <tr>
+                        
+                        <th>Parameters</th>
+                        
+                        <th>Description</th>
+                        
+                        </tr>
+                        
+                        <tr>
+                        
+                            <td>key</td>
+                            <td>Your API key</td>
+                        
+                        </tr>
+                        
+                        
+                        <tr>
+                        
+                        <td>action</td>
+                        
+                        <td>status</td>
+                        
+                        
+                        
+                        </tr>
+        
+        
+                        <tr>
+                        
+                            <td>order</td>
+                            
+                            <td>order ID</td>
+                            
+                            
+                            
+                            </tr>
+        
+                           
+            
+                        </table>
+
+
+                        <div class="api-sec-1-design-3">
+
+                            <h1>Example response</h1>
+                            
+                            <p>
+                                {
+                                    "charge": "0.27819", <br>
+                                    "start_count": "3572", <br>
+                                    "status": "Partial", <br>
+                                    "remains": "157", <br>
+                                    "currency": "USD"
+                                }
+                    
+                            </p>
+                         
+                            
+                            
+                            </div>
+
+
+                            <table>
+    
+                                <tr>
+                                
+                                <th>Parameters</th>
+                                
+                                <th>Description</th>
+                                
+                                </tr>
+                                
+                                <tr>
+                                
+                                    <td>key</td>
+                                    <td>Your API key</td>
+                                
+                                </tr>
+                                
+                                
+                                <tr>
+                                
+                                <td>action</td>
+                                
+                                <td>status</td>
+                                
+                                
+                                
+                                </tr>
+                
+                
+                                <tr>
+                                
+                                    <td>order</td>
+                                    
+                                    <td>Order IDs separated by comma</td>
+                                    
+                                    
+                                    
+                                    </tr>
+                
+                                   
+                    
+                                </table>
+
+
+                                <div class="api-sec-1-design-3">
+
+                                    <h1>Example response</h1>
+                                    
+                                    <p>
+                                        { <br>
+                                            "1": { <br>
+                                                "charge": "0.27819", <br>
+                                                "start_count": "3572", <br>
+                                                "status": "Partial", <br>
+                                                "remains": "157", <br>
+                                                "currency": "USD" <br>
+                                            }, <br>
+                                            "10": { <br>
+                                                "error": "Incorrect order ID" <br>
+                                            }, <br>
+                                            "100": { <br>
+                                                "charge": "1.44219", <br>
+                                                "start_count": "234", <br>
+                                                "status": "In progress", <br>
+                                                "remains": "10", <br>
+                                                "currency": "USD" <br>
+                                            } <br>
+                                        } <br>
+                            
+                                    </p>
+                                 
+                                    
+                                    
+                                    </div>
+
+
+
+
+                                    <table>
+    
+                                        <tr>
+                                        
+                                        <th>Parameters</th>
+                                        
+                                        <th>Description</th>
+                                        
+                                        </tr>
+                                        
+                                        <tr>
+                                        
+                                            <td>key</td>
+                                            <td>Your API key</td>
+                                        
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                        
+                                        <td>action</td>
+                                        
+                                        <td>refill</td>
+                                        
+                                        
+                                        
+                                        </tr>
+                        
+                        
+                                        <tr>
+                                        
+                                            <td>order</td>
+                                            
+                                            <td>Order ID</td>
+                                            
+                                            
+                                            
+                                            </tr>
+                        
+                                           
+                            
+                                        </table>
+
+
+                                        <div class="api-sec-1-design-3">
+
+                                            <h1>Example response</h1>
+                                            
+                                            <p>
+                                                { <br>
+                                                    "refill": "1" <br>
+                                                } <br>
+                                    
+                                            </p>
+                                         
+                                            
+                                            
+                                            </div>
+
+
+
+
+                                            <table>
+    
+                                                <tr>
+                                                
+                                                <th>Parameters</th>
+                                                
+                                                <th>Description</th>
+                                                
+                                                </tr>
+                                                
+                                                <tr>
+                                                
+                                                    <td>key</td>
+                                                    <td>Your API key</td>
+                                                
+                                                </tr>
+                                                
+                                                
+                                                <tr>
+                                                
+                                                <td>action</td>
+                                                
+                                                <td>refill_status</td>
+                                                
+                                                
+                                                
+                                                </tr>
+                                
+                                
+                                                <tr>
+                                                
+                                                    <td>refill</td>
+                                                    
+                                                    <td>Refill ID</td>
+                                                    
+                                                    
+                                                    
+                                                    </tr>
+                                
+                                                   
+                                    
+                                                </table>
+
+
+
+                                                <div class="api-sec-1-design-3">
+
+                                                    <h1>Example response</h1>
+                                                    
+                                                    <p>
+                                                        { <br>
+                                                            "status": "Completed" <br>
+                                                        } <br>
+                                                    </p>
+                                                 
+                                                    
+                                                    
+                                                    </div>
+        
+
+
+                                                    <table>
+    
+                                                        <tr>
+                                                        
+                                                        <th>Parameters</th>
+                                                        
+                                                        <th>Description</th>
+                                                        
+                                                        </tr>
+                                                        
+                                                        <tr>
+                                                        
+                                                            <td>key</td>
+                                                            <td>Your API key</td>
+                                                        
+                                                        </tr>
+                                                        
+                                                        
+                                                        <tr>
+                                                        
+                                                        <td>action</td>
+                                                        
+                                                        <td>balance</td>
+                                                        
+                                                        
+                                                        
+                                                        </tr>
+                                        
+                                        
+                                                        
+                                                           
+                                            
+                                                        </table>
+
+
+                                                        <div class="api-sec-1-design-3">
+
+                                                            <h1>Example response</h1>
+                                                            
+                                                            <p>
+                                                                { <br>
+                                                                    "balance": "100.84292", <br>
+                                                                    "currency": "USD" <br>
+                                                                } <br>
+                                                            </p>
+                                                         
+                                                            
+                                                            
+                                                            </div>
+
+
+            
+            </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+</div>
+
+
+
+</div>
+
+
+<div class="ftr">
+
+    <h3>Copyright © 2022 BESTBOOSTBD.com. All Rights Reserved.</h3>
+
+
+
+</div>
+
+
+
+<!-- api sec-1 end -->
+
+
+<!-- js -->
+
+<script src="js/jquery-3.6.0.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+</body>
+</html>
